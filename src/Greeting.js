@@ -4,7 +4,7 @@ const Greeting = (props) => {
     return (
     
     <p> 
-        Hello {props.name} {props.value}! This is the greeting that I have for now.
+        Hello {props.name}! Your counter has been set to: {props.value}!
     </p>
     );
 }

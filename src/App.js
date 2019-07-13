@@ -41,7 +41,6 @@ reset = () =>{
     
   }
   render(){
-    console.log("this is line number 13", this.state.counter);
     return(
     <div className ="container">
       <div className="navbar">Counter.JS</div>
@@ -52,7 +51,7 @@ reset = () =>{
       <button type="button" onClick= {this.increment} className="buttons">Increment</button>
       <button type="button" onClick = {this.decrement} className="buttons">Decrement</button>
       <button type="button" onClick ={this.toggle} className ="buttons">{this.state.tog}</button>
-      <Greeting name="React User" value={this.state.counter}/>
+      <Greeting name="Stranger" value={this.state.counter}/>
       </div>
     </div>
     )
